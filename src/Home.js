@@ -17,11 +17,22 @@ function HomePage()
     </div>
     <div className="home-info">
         <div className="home-text">
+     <div>
      <h1>DRONOTICZ</h1>
-    <p className="eraofdrones">THE ERA OF DRONES</p>
+     </div>
+     <div className="era">
+     ThE ERA OF DRONES
+     </div>
         </div>
        
     </div>
+    <div className="line-block">
+        <span></span>
+    </div>
   </div>;
+  
+  
+
+
 }
 export default HomePage;

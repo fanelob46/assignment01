@@ -1,3 +1,6 @@
+body{
+  background-color: #f8f8f8;
+}
 
 .section1{
   height: 500px;
@@ -52,13 +55,94 @@ cursor: pointer;
   color: black;
   padding-top: 80px;
 }
+
 h1{
   font-size: 112px;
 }
 p{
+  
+  text-align: center;
+}
+.section2{
+  background-color: #f8f8f8;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.articleheading{
   font-size: 32px;
+  text-align: center;
+}
+.articles{
+  display: flex;
+  justify-content: center;
+  
+  margin-top: 50px;
+}
+.card{
+  width: 400px;
+  background-color: #f8f8f8;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+.card img{
+  width: 100%;
+  height: auto;
+}
+.card-content{
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 20px;
   
 }
-
+.line{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.Aboutus{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  background-color: white;
+}
+.backgroundimage{
+  height: 500px;
+  width: 100%;
+  background-image: url(./Images/drone8.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.section3 p{
+  font-size: 16px;
+  font-weight: 300;
+  text-align: justify;
+  
+}
+h4{
+  text-align: center;
+}
+.fanjo{
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.fanjo h1{
+  text-align: center;
+}
+.sub{
+  text-align: center;
+  background-color: #f8f8f8;
+}
+.sub p{
+  text-align: center;
+}
+.sub button{
+  background-color: transparent;
+}
+.line-block span{
+  background-color: black;
+}
 
 
