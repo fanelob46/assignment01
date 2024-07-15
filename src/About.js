@@ -7,6 +7,8 @@ function MyAboutUs(){
             <div className="fanjo" >
                     <div>
                     <h4>ABOUT US</h4>
+                    <div className="rectangle"></div>
+                    
                     </div>
                     <div>
                         <p>
@@ -17,12 +19,12 @@ function MyAboutUs(){
             </div>
         </div>
         <div className="sub">
-            <h3>Subcribe</h3>
-            <p>Sign-up to our newsletter</p>
-            <input type="text" placeholder="Your Email" name="email">
+            <h3>SUBCRIBE</h3>
+            <h5>Sign-up to our newsletter</h5>
+            <input type="email" placeholder="Your Email" name="email">
             </input>
-            <div>
-            <button>Submit</button>
+            <div className="sub-div-btn">
+            <button className="btn-sub">Submit</button>
             </div>
             
         </div>

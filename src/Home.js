@@ -23,11 +23,11 @@ function HomePage()
      <div className="era">
      ThE ERA OF DRONES
      </div>
+     <div className="line">
+                    <div className="rectangle"></div>
+                    </div>
         </div>
-       
-    </div>
-    <div className="line-block">
-        <span></span>
+        
     </div>
   </div>;
   
