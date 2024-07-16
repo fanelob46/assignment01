@@ -6,13 +6,13 @@ function HomePage()
             <h2 className="logo">D<span>Z</span></h2>
             <ul>
                 <li>
-                    <a href="#">About</a>
+                    <a href="#">ABOUT</a>
                 </li>
                 <li>
-                    <a href="#">Articles</a>
+                    <a href="#">ARTICLES</a>
                 </li>
             </ul>
-            <button type="button">Subcribe</button>
+            <button type="button">SUBCRIBE</button>
         </nav>
     </div>
     <div className="home-info">

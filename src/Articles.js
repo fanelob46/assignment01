@@ -13,7 +13,7 @@ function MyArticles(){
                     <div className="rectangle"></div>
                     </div>
                     <div>
-                      <h8>How to automate surveilance drones</h8>
+                      <p>How to automate surveilance drones</p>
                     </div>
                 </div>
             </div>
@@ -24,7 +24,7 @@ function MyArticles(){
                     <div className="rectangle"></div>
                     </div>
                     <div>
-                    <h8>Robotics and artifial intelligence</h8>
+                    <p>Robotics and artifial intelligence</p>
                     </div>
                     
                 </div>
@@ -36,8 +36,7 @@ function MyArticles(){
                     <div className="rectangle"></div>
                     </div>
                     <div>
-                    <h8>Improving Lives through Robotics Prosthetics</h8>
-
+                    <p>Improving Lives through Robotics Prosthetics</p>
                     </div>
                     
                 </div>
@@ -49,8 +48,7 @@ function MyArticles(){
                     <div className="rectangle"></div>
                     </div>
                     <div>
-                    <h8>Power of Robotics in Agriculture</h8>
-
+                    <p>Power of Robotics in Agriculture</p>
                     </div>
                     
                 </div>

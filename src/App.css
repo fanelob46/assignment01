@@ -3,7 +3,7 @@ body{
 }
 
 .section1{
-  height: 500px;
+  height: 900px;
   width: 100%;
   background-image: url(./Images/hero.jpg);
   background-repeat: no-repeat;
@@ -75,7 +75,9 @@ p{
   background-color: #f8f8f8;
   padding-top: 40px;
   padding-bottom: 40px;
+  
 }
+
 .articleheading{
   font-size: 32px;
   text-align: center;
@@ -83,6 +85,7 @@ p{
 .articles{
   display: flex;
   justify-content: center;
+  
   
   margin-top: 50px;
 }
@@ -102,6 +105,12 @@ p{
   padding-top: 0px;
   padding-bottom: 20px;
   
+}
+nav a{
+  font-size: 24px;
+}
+.card-content p{
+  font-size: 16px;
 }
 .line{
   padding-top: 30px;
@@ -130,7 +139,7 @@ p{
   font-size: 16px;
   font-weight: 300;
   text-align: justify;
-  
+  padding-top: 20px;
 }
 h4{
   text-align: center;
@@ -168,40 +177,16 @@ h4{
   footer{
     background-color: white;
   }
-  .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  align-content: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  
-  }
-  
-  .fa-facebook {
-    background: #CBDEEC;
-    
-    color: white;
-    
-    
-  }
-  .fa-linkedin {
-    background: #CBDEEC;
-
-    color: white;
-  }
-  .fa-pinterest {
-    background: #CBDEEC;
-
-    color: white;
-  }
+ 
   input{
     background-color: white;
-    width: 50%;
+    width: 35%;
+    height: 50px;
     border: 2px solid #f8f8f8;
+    padding: 10px;
   }
   ::-webkit-input-placeholder {
-    align-items: center;
+    margin: 2px;
   }
   .sub-div-btn{
     padding-top: 2%;
@@ -211,17 +196,71 @@ h4{
     display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
+  padding-bottom: 15px;
+  
   
   }
   .nav-footer{
     display: flex;
     align-items: end;
-    justify-content: space-between;
-    padding-left: 50%;
+    justify-content: space-around;
+    padding-left: 30%;
     padding-right: 2%;
   }
 
   .icons{
-    padding-top: 5%;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    
+    
   }
+.facebook-icon{
+  padding: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  margin: 5px 40px;
+  border-radius: 50%;
+  padding-bottom: 0%;
+  margin-bottom: 15px;
+  background: #CBDEEC;
+}
+.Linkedin-icon{
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 10px 10px;
+  border-radius: 20%;
+  padding-bottom: 0%;
+  margin-top: 5px;
+  margin-left: 25px;
+  background: #CBDEEC;
+}
+.pininterest-icon{
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 100%;
+  margin: 5px;
+  margin-left: 25px;
   
+}
+.btn-footer{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  
+
+}
+
+.icons img {
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%; 
+  margin: 0 50px; 
+
+}
+
+.icons img :hover{
+  opacity: 100%;
+}
+ 
