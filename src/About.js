@@ -1,5 +1,6 @@
 function MyAboutUs(){
     return <div className="section3">
+        <div className="about">
         <div className="Aboutus">
             <div className="backgroundimage">
                 
@@ -18,6 +19,8 @@ function MyAboutUs(){
                 
             </div>
         </div>
+        </div>
+       
         <div className="sub">
             <h3>SUBCRIBE</h3>
             <h5>Sign-up to our newsletter</h5>
