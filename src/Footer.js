@@ -39,7 +39,10 @@ function Myfooter()
                     <a href="#">ARTICLES</a>
                 </li>
             </ul>
-            <button className="btn-footer" type="button">SUBCRIBE</button>
+            <div className="div-btn-footer">
+                <button className="btn-footer" type="button">SUBCRIBE</button>
+            </div>
+            
         </nav>
         </div>
 
