@@ -147,9 +147,9 @@ nav a{
 }
 .section3 p{
   font-size: 16px;
-  font-weight: 300;
   text-align: justify;
   padding-top: 20px;
+  
 }
 h4{
   text-align: center;
@@ -166,8 +166,8 @@ h5{
 }
 .fanjo{
   margin: auto;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .fanjo h1{
   text-align: center;
