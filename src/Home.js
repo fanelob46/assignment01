@@ -1,18 +1,23 @@
 function HomePage()
 {
   return <div className="section1">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     <div className="nav">
         <nav>
             <h2 className="logo">D<span>Z</span></h2>
             <ul>
                 <li>
-                    <a href="#">ABOUT</a>
+                    <a href="#Aboutus">ABOUT</a>
                 </li>
                 <li>
-                    <a href="#">ARTICLES</a>
+                    <a href="#articles">ARTICLES</a>
                 </li>
             </ul>
-            <button type="button">SUBCRIBE</button>
+            <a href="#Subcription">
+                <button type="button">SUBCRIBE</button>
+            </a>
+            
         </nav>
     </div>
     <div className="home-info">

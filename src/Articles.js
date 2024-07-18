@@ -1,5 +1,7 @@
 function MyArticles(){
-    return <div className="section2">
+    return <div className="section2" id="articles">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
         <div className="articleheading">
             <p>LATEST ARTICLES</p>
             <div className="rectangle"></div>

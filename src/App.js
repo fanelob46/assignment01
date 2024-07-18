@@ -5,6 +5,7 @@ import HomePage from './Home';
 import MyArticles from './Articles';
 import MyAboutUs from './About';
 import Myfooter from './Footer';
+import MySub from './Subscription';
 
 
 
@@ -14,6 +15,7 @@ function App() {
    <HomePage></HomePage>
    <MyArticles/>
    <MyAboutUs/>
+   <MySub/>
    <Myfooter/>
     </div>
   

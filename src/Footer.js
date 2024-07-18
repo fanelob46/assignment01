@@ -2,7 +2,9 @@
 function Myfooter()
 {
     return<footer>
-      <div className="myfooter">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <div className="myfooter" id="footer">
         <div className="icons">
         <a href="https://www.facebook.com/" className="facebook-icon">
 <svg width="17" height="31" viewBox="0 0 17 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -33,14 +35,17 @@ function Myfooter()
             
             <ul>
                 <li>
-                    <a href="#">ABOUT US</a>
+                    <a href="#Aboutus">ABOUT US</a>
                 </li>
                 <li>
-                    <a href="#">ARTICLES</a>
+                    <a href="#articles">ARTICLES</a>
                 </li>
             </ul>
             <div className="div-btn-footer">
+                <a href="#Subcription"> 
                 <button className="btn-footer" type="button">SUBCRIBE</button>
+
+                </a>
             </div>
             
         </nav>
